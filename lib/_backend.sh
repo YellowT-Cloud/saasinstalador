@@ -64,6 +64,7 @@ PORT=${backend_port}
 DB_HOST=localhost
 DB_DIALECT=postgres
 DB_PORT=5432
+DB_TIMEZONE=-03:00
 DB_USER=${instancia_add}
 DB_PASS=${mysql_root_password}
 DB_NAME=${instancia_add}
@@ -78,6 +79,7 @@ REGIS_OPT_LIMITER_DURATION=3000
 USER_LIMIT=${max_user}
 CONNECTIONS_LIMIT=${max_whats}
 CLOSED_SEND_BY_ME=true
+
 
 [-]EOF
 EOF

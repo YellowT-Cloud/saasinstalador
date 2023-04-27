@@ -11,7 +11,7 @@ get_mysql_root_password() {
 get_link_git() {
   
   print_banner
-  printf "${WHITE} 💻 Insira o link do GITHUB do seu WhatsPainel que deseja instalar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Insira o link do GITHUB do seu Multiconversa que deseja instalar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " link_git
 }
@@ -201,14 +201,14 @@ software_dominio() {
 inquiry_options() {
   
   print_banner
-  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador WhatsPainel, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador Multiconversa, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [0] Instalar WhatsPainel\n"
-  printf "   [1] Atualizar WhatsPainel\n"
-  printf "   [2] Deletar WhatsPainel\n"
-  printf "   [3] Bloquear WhatsPainel\n"
-  printf "   [4] Desbloquear WhatsPainel\n"
-  printf "   [5] Alter. dominio WhatsPainel\n"
+  printf "   [0] Instalar Multiconversa\n"
+  printf "   [1] Atualizar Multiconversa\n"
+  printf "   [2] Deletar Multiconversa\n"
+  printf "   [3] Bloquear Multiconversa\n"
+  printf "   [4] Desbloquear Multiconversa\n"
+  printf "   [5] Alter. dominio Multiconversa\n"
   printf "\n"
   read -p "> " option
 
